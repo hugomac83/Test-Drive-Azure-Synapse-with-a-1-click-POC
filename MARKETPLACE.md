@@ -22,20 +22,14 @@ Dois plugins compõem o marketplace:
 
 ## Como publicar
 
-1. Copie esta pasta para a raiz do seu repositório no GitHub (ou use este repositório inteiro, se for dedicado a isso).
-2. Faça commit e push:
-   ```bash
-   git add .
-   git commit -m "Adiciona marketplace de skills de avaliação de impacto e BI"
-   git push
-   ```
+Este repositório já é o marketplace: `.claude-plugin/marketplace.json` e `skills/` estão na raiz. Basta que o repositório esteja no GitHub (já está) — nada mais a fazer para publicar.
 
 ## Como instalar no Claude Code (você ou qualquer colega)
 
 Dentro do Claude Code:
 
 ```
-/plugin marketplace add <seu-usuario>/<seu-repo>
+/plugin marketplace add hugomac83/Test-Drive-Azure-Synapse-with-a-1-click-POC
 /plugin install avaliacao-e-dados-sociais@hugo-costa-data-toolkit
 /plugin install andrej-karpathy-skills@hugo-costa-data-toolkit
 ```
