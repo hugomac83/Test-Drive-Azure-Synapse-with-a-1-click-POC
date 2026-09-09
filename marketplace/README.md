@@ -1,6 +1,6 @@
 # hugo-costa-data-toolkit
 
-Marketplace de plugins para Claude Code com skills voltados a avaliação de impacto socioeconômico/ambiental, dashboards executivos de BI (Power BI/DAX/SQL) e métodos de pesquisa social e demográfica.
+Marketplace de plugins para Claude Code com skills voltados a avaliação de impacto socioeconômico/ambiental, dashboards executivos de BI (Power BI/DAX/SQL), métodos de pesquisa social e demográfica, e diretrizes gerais de comportamento de codificação.
 
 ## Estrutura
 
@@ -11,10 +11,14 @@ Marketplace de plugins para Claude Code com skills voltados a avaliação de imp
 └── skills/
     ├── avaliacao-impacto/SKILL.md
     ├── dashboards-bi/SKILL.md
-    └── metodos-pesquisa/SKILL.md
+    ├── metodos-pesquisa/SKILL.md
+    └── karpathy-guidelines/SKILL.md
 ```
 
-Os três skills estão agrupados em um único plugin, `avaliacao-e-dados-sociais`.
+Dois plugins compõem o marketplace:
+
+- `avaliacao-e-dados-sociais` — agrupa os três skills de avaliação de impacto, BI e métodos de pesquisa.
+- `andrej-karpathy-skills` — skill único (`karpathy-guidelines`) com diretrizes de comportamento de codificação (evitar suposições silenciosas, overengineering, mudanças fora do escopo), originalmente de [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills), licença MIT.
 
 ## Como publicar
 
@@ -33,9 +37,10 @@ Dentro do Claude Code:
 ```
 /plugin marketplace add <seu-usuario>/<seu-repo>
 /plugin install avaliacao-e-dados-sociais@hugo-costa-data-toolkit
+/plugin install andrej-karpathy-skills@hugo-costa-data-toolkit
 ```
 
-Depois disso, os três skills ficam disponíveis automaticamente sempre que a tarefa for relevante (avaliação de impacto, EIA/RIMA, dashboard/Power BI/SQL, ou desenho de pesquisa/amostragem).
+Depois disso, os skills ficam disponíveis automaticamente sempre que a tarefa for relevante (avaliação de impacto, EIA/RIMA, dashboard/Power BI/SQL, desenho de pesquisa/amostragem, ou boas práticas de codificação).
 
 ## Como editar ou adicionar um skill
 

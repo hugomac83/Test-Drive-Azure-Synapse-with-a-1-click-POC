@@ -18,6 +18,20 @@
         "./skills/dashboards-bi",
         "./skills/metodos-pesquisa"
       ]
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution.",
+      "source": "./",
+      "strict": false,
+      "author": {
+        "name": "forrestchang"
+      },
+      "license": "MIT",
+      "keywords": ["guidelines", "best-practices", "coding", "karpathy"],
+      "skills": [
+        "./skills/karpathy-guidelines"
+      ]
     }
   ]
 }
