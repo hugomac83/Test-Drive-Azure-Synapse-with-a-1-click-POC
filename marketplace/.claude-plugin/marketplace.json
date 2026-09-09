@@ -1,0 +1,23 @@
+{
+  "name": "hugo-costa-data-toolkit",
+  "owner": {
+    "name": "Hugo Maia Alves da Costa"
+  },
+  "metadata": {
+    "description": "Skills para avaliação de impacto socioeconômico, dashboards executivos de BI e métodos de pesquisa social e demográfica",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "avaliacao-e-dados-sociais",
+      "description": "Metodologia de avaliação de impacto (EIA/RIMA, programas públicos, populações em risco), dashboards executivos em Power BI/DAX e SQL, e métodos quantitativos/qualitativos de pesquisa social e demográfica.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/avaliacao-impacto",
+        "./skills/dashboards-bi",
+        "./skills/metodos-pesquisa"
+      ]
+    }
+  ]
+}
